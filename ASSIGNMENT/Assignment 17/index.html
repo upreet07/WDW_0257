@@ -15,7 +15,21 @@
         <p>
             <input type="email" name="email" placeholder="you@college.edu" required>
         </p>
+        <p>
+            <input type="tel" name="mobile" placeholder="10-digit mobile" pattern="[0-9]{10}" title="Enter exactly 10 digits" required>
+        </p>
 
+        <p>
+            <input type="password" name="password" placeholder="Min 6 characters" minlength="6" required>
+        </p>
+
+        <p>
+            <input type="number" name="age" placeholder="Age (17-30)" min="17" max="30" required>
+        </p>
+
+        <p>
+            <button type="submit">Register</button>
+        </p>
     </form>
 
 </body>
